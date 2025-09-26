@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>
+      facebook2 login
+    </title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .container {
+        text-align: center;
+        width: 350px;
+      }
+      .logo {
+        color: #1877f2;
+         font-size: 50px;
+         font-weight: bold;
+         margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .text-small {
+        color: #606770;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      .profiles {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .profile, .add-account{
+        width: 48%;
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+
+      }
+     .profile img {
+      width: 100%;
+      border-radius: 10px;
+     } 
+     .profile p, .add-account p{
+      margin: 8px 0 0;
+      font-weight: bold;
+      font-size: 14px;
+     }
+     .add-account {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      color:  #1877f2;
+      font-size: 20px;
+     }
+     .login-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+     }
+     .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+     }
+     .login-btn {
+      background-color: #1877f2;
+      color:  #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+     }
+     .login-box a {
+      display: block;
+      margin: 15px 0;
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+     }
+     .create-btn {
+      background-color: #42b72a;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+     }
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <div container>
+      <div class="logo">facebook</div>
+      <div class="subtitle">Recent logins</div>
+      <div class="text-small">click your picture or add an account</div>
+    <div class="profiles">
+      <div class="profile">
+        <img src="../thumbnails/image.jpg" alt="kennedy">
+        <p>kennedy</p>
+      </div>
+
+      <div class="add-account"> 
+      <div style="font-size: 40px;">+</div>
+      <p>Add account</p>
+      </div>
+    </div>
+    
+    <div class="login-box">
+      <input type="text" placeholder="phone or email">
+      <input type="password" placeholder="password">
+      <button class="login-btn"> Log in</button>
+      <a href="#">forgot password?</a>
+      <hrs>
+        <button class="create-btn">create new account</button>
+    </div>
+    </div>
+
+  </body>
+</html>
